@@ -64,6 +64,8 @@ Pero nosotros Podemos hacer nuestras plantillas
 
 9.- Este seria el comando 
 
+
+
         {
             "type":"Microsoft.Storage/storageAccounts",
             "apiversion":"2021-09-01",
@@ -76,7 +78,6 @@ Pero nosotros Podemos hacer nuestras plantillas
             "properties": {
                 "supportsHttpsTrafficOnly": true
         }
-        
         
 
 10.- Nos vamos al CMD y volvemos a poner el comando anterior **az** **deployment** **group** **create** **--name** **mi-primera-plantilla** **--resource-group** **sesion7** **--template-file** **azuredeploy.json**.
