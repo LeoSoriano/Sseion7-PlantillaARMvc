@@ -45,6 +45,10 @@ Pero nosotros Podemos hacer nuestras plantillas
 }
 
 
+
+
+
+
 ![Plantilla Basica de ARM](Imagenes/EstoesLominimoparahacerunaplantillaARM.PNG)
 
 6.- Despues nos vamos al CMD y escribimos el comando **az** **deployment** **group** **create** **--name** **mi-primera-plantilla** **--resource-group** **sesion7** **--template-file** **azuredeploy.json**.
