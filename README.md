@@ -36,13 +36,12 @@ Pero nosotros Podemos hacer nuestras plantillas
 
 5.- Escribiremos el siguiente codigo: 
 
-**{**
+{
     **"$schema": "https://schema.managment.azure.com/schemas/2019-04-01/deploymentTemplate.json#",**
     **"contentVersion": "1.0.1.0",**
     
     **"resources": []**
-
-**}**
+}
 
 ![Plantilla Basica de ARM](Imagenes/EstoesLominimoparahacerunaplantillaARM.PNG)
 
