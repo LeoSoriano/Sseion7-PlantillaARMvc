@@ -78,11 +78,6 @@ Pero nosotros Podemos hacer nuestras plantillas
         }
         
         
-        
-        
-        
-        ![Comando Storage Account](Imagenes/comandoStorageAccount.PNG)
-        
 
 10.- Nos vamos al CMD y volvemos a poner el comando anterior **az** **deployment** **group** **create** **--name** **mi-primera-plantilla** **--resource-group** **sesion7** **--template-file** **azuredeploy.json**.
 
