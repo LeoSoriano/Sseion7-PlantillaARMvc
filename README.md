@@ -39,8 +39,8 @@ Pero nosotros Podemos hacer nuestras plantillas
 **{**
     **"$schema": "https://schema.managment.azure.com/schemas/2019-04-01/deploymentTemplate.json#",**
     **"contentVersion": "1.0.1.0",**
+    
     **"resources": []**
-
 
 **}**
 
@@ -57,6 +57,7 @@ Pero nosotros Podemos hacer nuestras plantillas
 8.- Aca podriamos implementar un **Storage Accaount**.
 
 9.- Este seria el comando 
+
         **{**
             **"type":"Microsoft.Storage/storageAccounts",**
             **"apiversion":"2021-09-01",**
@@ -69,6 +70,8 @@ Pero nosotros Podemos hacer nuestras plantillas
             **"properties": {**
                 **"supportsHttpsTrafficOnly":** **true**
         **}**
+        
+        
         ![Comando Storage Account](Imagenes/comandoStorageAccount.PNG)
 
 10.- Nos vamos al CMD y volvemos a poner el comando anterior **az** **deployment** **group** **create** **--name** **mi-primera-plantilla** **--resource-group** **sesion7** **--template-file** **azuredeploy.json**.
