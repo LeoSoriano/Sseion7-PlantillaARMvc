@@ -38,9 +38,9 @@ Pero nosotros Podemos hacer nuestras plantillas
 
 {
 
-    **"$schema": "https://schema.managment.azure.com/schemas/2019-04-01/deploymentTemplate.json#",**
-    **"contentVersion": "1.0.1.0",**
-    **"resources": []**
+    "$schema": "https://schema.managment.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.1.0",
+    "resources": []
     
 }
 
@@ -58,18 +58,18 @@ Pero nosotros Podemos hacer nuestras plantillas
 
 9.- Este seria el comando 
 
-        **{**
-            **"type":"Microsoft.Storage/storageAccounts",**
-            **"apiversion":"2021-09-01",**
-            **"name": "micuentadealmacenamiento",**
-            **"location":** **"central** **us",**
-            **"sku":** **{**
-                **"name":** **"Standard_LRS"**
-            **},**
-            **"kind":** **"Storagev2",**
-            **"properties": {**
-                **"supportsHttpsTrafficOnly":** **true**
-        **}**
+        {
+            "type":"Microsoft.Storage/storageAccounts",
+            "apiversion":"2021-09-01",
+            "name": "micuentadealmacenamiento",
+            "location": "central us",
+            "sku": {
+                "name":** **"Standard_LRS"
+            },
+            "kind":** **"Storagev2",
+            "properties": {
+                "supportsHttpsTrafficOnly": true
+        }
         
         
         ![Comando Storage Account](Imagenes/comandoStorageAccount.PNG)
